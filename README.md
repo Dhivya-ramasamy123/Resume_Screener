@@ -1,11 +1,11 @@
-# 🎯 Resume Screener
+# Resume Screener
 
-A lightweight AI-powered resume screening tool built with **Streamlit** and **GROQ LLaMA3**.  
+A lightweight AI-powered resume screening tool built with **Streamlit** and **GROQ llama-3.1-8b-instant**.  
 Paste a job description, upload a resume — get an instant **Fit / Not Fit** verdict with a reason.
 
 ---
 
-## 📸 Preview
+## Preview
 
 ```
 ✅ Fit for the Role
@@ -23,7 +23,7 @@ lacks the cloud infrastructure skills listed as mandatory.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 resume_screener/
@@ -52,7 +52,7 @@ resume_screener/
 | Layer     | Technology                          |
 |-----------|-------------------------------------|
 | UI        | Streamlit                           |
-| LLM       | GROQ API — `llama3-8b-8192` (free)  |
+| LLM       | GROQ API — `llama-3.1-8b-instant` (free)  |
 | LLM SDK   | `langchain-groq`                    |
 | PDF parse | `pypdf`                             |
 | DOCX parse| `python-docx`                       |
@@ -60,7 +60,7 @@ resume_screener/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -103,7 +103,7 @@ Opens at `http://localhost:8501`
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 ```
 User Input
@@ -131,24 +131,14 @@ User Input
 
 ---
 
-## 📄 Supported File Types
+## Supported File Types
 
 | Format | Support |
 |--------|---------|
 | PDF    | ✅ Text-based PDFs |
 | DOCX   | ✅ Microsoft Word  |
 | DOC    | ✅ Legacy Word     |
-| Image-based PDF | ❌ Not supported |
-
-
-## 📦 requirements.txt
-
-```
-streamlit
-langchain-groq
-pypdf
-python-docx
-python-dotenv
+| Image-based PDF | ❌ Not supported|
 ```
 
 
